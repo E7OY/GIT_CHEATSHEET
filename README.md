@@ -7,12 +7,14 @@
 
 ## Índice
 
-1. [Áreas de trabajo de Git](#areas-de-trabajo-de-git)
-2. [Crear repos](#crear-repos)
-3. [Cambios Repos](#cambios-repos)
-4. [Ramas](#ramas)
-5. [Conclusión](#conclusión)
-
+* [Áreas de trabajo de Git](#areas-de-trabajo-de-git)
+* [Crear repos](#crear-repos)
+* [Cambios Repos](#cambios-repos)
+* [Mover y Reubicar Archivos](#mover-y-reubicar-archivos)
+* [Guardar cambios](#guardar-cambios)
+* [Historial commits](#historial-commits)
+* [Rehacer commits](#rehacer-commits)
+* [Sincronizar cambios](#sincronizar-cambios)
 
 
 ##  ÁREAS DE TRABAJO DE GIT
