@@ -4,24 +4,24 @@
 
 ###  ÁREAS DE TRABAJO DE GIT
 
-| Area | Descripción |
+| **Area** | **Descripción** |
 | --- | --- |
 | Directorio de trabajo (Working directory) | Carpeta donde se encuentran los archivos de tu proyecto. Aquí es dónde traabajas activamente con los archivos, modificándolos, eliminándolos o añadiendo nuevos. |
 | Área de preparación (Staging area) | Conocida como índice, área intermedia dónde se colocan los cambios que deseas incluir en el próximo commit, cuando se usa `git add`, se están moviendo los cambios desde el directorio de trabajo a esta área. Los archivos en el índice están listos para ser confirmados (comitted). |
 | Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
 
-### CREAR REPOS
+### **CREAR REPOS**
 
-| Comando | Descripción |
+| **Comando | Descripción** |
 | --- | --- |
 | `git init [nombreRepo]` | Crea un repositorio local con el nombre especificado, con todos los archivos necesarios para el seguimiento de versiones. |
 | `git clone [urlRepo]` | Crea una copia local de un repositorio remoto de Git con la URL especificada. |
 
 ---
 
-### CAMBIOS REPOS
+### **CAMBIOS REPOS**
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git status`  | Muestra el estado del directorio de trabajo.|
 | `git diff`  | Muestra las diferencias entre los cambios del directorio de trabajo y el área de preparación.  |
@@ -35,7 +35,7 @@
 
 ### RAMAS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git branch`  | Enumera todas las ramas del repositorio actual. |
 | `git branch [nombreRama]`  | Crea una nueva rama con el nombre especificado. |
@@ -47,7 +47,7 @@
 
 ### MOVER Y REUBICAR ARCHIVOS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git rm [nombreArchivo]` | Borra el archivo especificado del sistema de archivos y del índice de Git. |
 | `git rm --cached [nombreArchivo]` | Retira el archivo especificado del control de versiones, pero lo preserva a nivel local. |
@@ -57,7 +57,7 @@
 
 ### GUARDAR CAMBIOS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git stash` | Almacena temporalmente los cambios no confirmados en una pila stash limpiando el área de trabajo sin necesidad de hacer un commit. |
 | `git stash pop` | Restaura los archivos guardados del último stash. |
@@ -68,7 +68,7 @@
 
 ### HISTORIAL COMMITS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git log` | Enumera el historial de commits de la rama actual. |
 | `git log --oneline` | Muestra el historial en una sola línea por commit, mostrando solo el hash corto y el mensaje del commit. |
@@ -83,7 +83,7 @@
 
 ## REHACER COMMITS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git reset [commit]` | Deshace todos los commits después del commit especificado, preservando los cambios localmente. |
 | `git reset --hard [commit]` | Reestablece completamente todo el repo al estado exacto del commit especificado, eliminando cualquier cambio posterior. |
@@ -93,7 +93,7 @@
 
 ## SINCRONIZAR CAMBIOS
 
-| Comando | Descripción |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git fetch [nombreRepo]` | Descarga los cambios del repo remoto especificado, sin integrarlos en la rama actual, permitiendo inspeccionar los cambios entes de unirlos al área de trabajo. |
 | `git merge [nombreRama]` | Combina los cambios de la rama actual con la rama especificada. |
