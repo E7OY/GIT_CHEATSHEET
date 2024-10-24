@@ -1,4 +1,4 @@
-![repo size](https://img.shields.io/github/repo-size/E7OY/cheatSheet)
+![repo size](https://img.shields.io/github/repo-size/E7OY/cheatSheet.svg)
 
 ## GIT CHEAT-SHEET
 
