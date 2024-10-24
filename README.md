@@ -12,31 +12,8 @@
  >| Área de preparación (Staging area) | Conocida como índice, área intermedia dónde se colocan los cambios que deseas incluir en el próximo commit, cuando se usa `git add`, se están moviendo los cambios desde el directorio de trabajo a esta área. Los archivos en el índice están listos para ser confirmados (comitted). |
 > | Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
 
-```html
-<div style="background-color:#ffeb3b; padding: 10px; text-align: center;">
-  **New Section**
-</div>
-```
 
-<div style="background-color:#ffeb3b; padding: 10px; text-align: center;">
-  **New Section**
-</div>
-
-### 8. **Tablas como Separadores**
-Usar una tabla simple en Markdown también puede servir como un separador estilizado:
-
-```md
-| --- | --- | --- |
-|     | Section |     |
-| --- | --- | --- |
-```
-
-Esto crea un separador como una línea de tabla:
-
-| --- | --- | --- |
-|     | Section |     |
-| --- | --- | --- |
-
+==============
 
 ## **CREAR REPOS**
 
