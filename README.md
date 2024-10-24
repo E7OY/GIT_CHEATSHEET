@@ -8,9 +8,9 @@
 ## Índice
 
 1. [Áreas de trabajo de Git](#areas-de-trabajo-de-git)
-2. [Sintaxis Básica](#sintaxis-básica)
-3. [Enlaces y Imágenes](#enlaces-y-imágenes)
-4. [Listas](#listas)
+2. [Crear repos](#crear-repos)
+3. [Cambios Repos](#cambios-repos)
+4. [Ramas](#ramas)
 5. [Conclusión](#conclusión)
 
 
