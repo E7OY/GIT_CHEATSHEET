@@ -6,12 +6,10 @@
 
 ### CREAR REPOS
 
-`git init [nombreRepo]`  
-Crea un repositorio local con el nombre especificado
+| Command | Description |
+| `git init [nombreRepo]` | Crea un repositorio local con el nombre especificado |
+| `git clone [urlRepo]` | Descarga un proyecto remoto a local y toda su historia de versión |
 
-`git clone [urlRepo]`  
-Descarga un proyecto remoto a local y toda su historia de versión
- 
 ---
 
 ### CAMBIOS REPOS
