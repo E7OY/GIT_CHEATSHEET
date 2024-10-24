@@ -3,7 +3,6 @@
 
 ### CREAR REPOS
 
-```
-`git status`
+ `git status`
 Descarga un proyecto remoto a local y toda su historia de versión
-```
+ 
