@@ -24,4 +24,4 @@ Añade un archivo específico al área de preparación.
 
 `git add .`
 Añade todos los cambios en el directorio de trabajo al área de preparación.  
-:WARNING: Úsalo con precaución ya que puede incluir archivos no deseados.
+:warning: Úsalo con precaución ya que puede incluir archivos no deseados.
