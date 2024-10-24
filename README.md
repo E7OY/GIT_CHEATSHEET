@@ -4,11 +4,11 @@
 
 ###  ÁREAS DE TRABAJO DE GIT
 
-| **Area** | **Descripción** |
-| --- | --- |
-| Directorio de trabajo (Working directory) | Carpeta donde se encuentran los archivos de tu proyecto. Aquí es dónde traabajas activamente con los archivos, modificándolos, eliminándolos o añadiendo nuevos. |
-| Área de preparación (Staging area) | Conocida como índice, área intermedia dónde se colocan los cambios que deseas incluir en el próximo commit, cuando se usa `git add`, se están moviendo los cambios desde el directorio de trabajo a esta área. Los archivos en el índice están listos para ser confirmados (comitted). |
-| Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
+> | **Area** | **Descripción** |
+> | --- | --- |
+> | Directorio de trabajo (Working directory) | Carpeta donde se encuentran los archivos de tu proyecto. Aquí es dónde traabajas activamente con los archivos, modificándolos, eliminándolos o añadiendo nuevos. |
+ >| Área de preparación (Staging area) | Conocida como índice, área intermedia dónde se colocan los cambios que deseas incluir en el próximo commit, cuando se usa `git add`, se están moviendo los cambios desde el directorio de trabajo a esta área. Los archivos en el índice están listos para ser confirmados (comitted). |
+> | Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
 
 ### **CREAR REPOS**
 
