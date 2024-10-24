@@ -4,6 +4,6 @@
 ### CREAR REPOS
 
 ```
-`git clone`
+`git status`
 Descarga un proyecto remoto a local y toda su historia de versión
 ```
