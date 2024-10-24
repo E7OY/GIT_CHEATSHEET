@@ -1,5 +1,6 @@
 ## GIT CHEAT-SHEET
-´
+
+![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Icon-Black.svg)
 
 ### CREAR REPOS
 
