@@ -4,6 +4,14 @@
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
+###  ÁREAS DE TRABAJO DE GIT
+
+| Area | Descripción |
+| --- | --- |
+| Directorio de trabajo (Working directory) | Carpeta donde se encuentran los archivos de tu proyecto. Aquí es dónde traabajas activamente con los archivos, modificándolos, eliminándolos o añadiendo nuevos. |
+| Área de preparación (Staging area) | Conocida como índice, área intermedia dónde se colocan los cambios que deseas incluir en el próximo commit, cuando se usa `git add`, se están moviendo los cambios desde el directorio de trabajo a esta área. Los archivos en el índice están listos para ser confirmados (comitted). |
+| Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
+
 ### CREAR REPOS
 
 | Comando | Descripción |
@@ -47,6 +55,8 @@
 | `git rm --cached [nombreArchivo]` | Retira el archivo especificado del control de versiones, pero lo preserva a nivel local. |
 | `git mv [nombreArchivo] [nuevoNombreArchivo]` | Cambia el nombre del archivo especificado. |
 
+---
+
 ### GUARDAR FRAGMENTOS
 
 | Comando | Descripción |
@@ -55,6 +65,8 @@
 | `git stash pop` | Restaura los archivos guardados del último stash. |
 | `git stash list` | Enumera todos los stashes guardados con un identificador único. |
 | `git stash drop [stash@{n}]` | Elimina stash de cambios especificado en el índice n. |
+
+---
 
 ### HISTORIAL COMMITS
 
@@ -69,6 +81,8 @@
 | `git diff [primeraRama]...[segundaRama]` | Muestra las diferencias de contenido entre dos ramas. |
 | `git show [commit]` | Muestra la información detallada sobre un commit específico pasándole como parámetro el hash o identificador del commit. |
 
+---
+
 ## REHACER COMMITS
 
 | Comando | Descripción |
@@ -76,6 +90,8 @@
 | `git reset [commit]` | Deshace todos los commits después del commit especificado, preservando los cambios localmente. |
 | `git reset --hard [commit]` | Reestablece completamente todo el repo al estado exacto del commit especificado, eliminando cualquier cambio posterior. |
 | `git log -n x` | Muestra solo los últimos x commits. |
+
+---
 
 ## SINCRONIZAR CAMBIOS
 
