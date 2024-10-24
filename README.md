@@ -4,6 +4,17 @@
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
+
+## Índice
+
+1. [Áreas de trabajo de Git](#areas-de-trabajo-de-git)
+2. [Sintaxis Básica](#sintaxis-básica)
+3. [Enlaces y Imágenes](#enlaces-y-imágenes)
+4. [Listas](#listas)
+5. [Conclusión](#conclusión)
+
+
+
 ##  ÁREAS DE TRABAJO DE GIT
 
 > | **Area** | **Descripción** |
