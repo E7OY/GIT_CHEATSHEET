@@ -55,7 +55,7 @@
 
 ---
 
-### GUARDAR FRAGMENTOS
+### GUARDAR CAMBIOS
 
 | Comando | Descripción |
 | --- | --- |
