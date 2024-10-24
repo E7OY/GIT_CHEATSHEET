@@ -32,7 +32,7 @@ Añade un archivo específico al área de preparación.
 Añade todos los cambios en el directorio de trabajo al área de preparación.  
 :warning: Úsalo con precaución ya que puede incluir archivos no deseados.
 
-`git reset [fileName]`
+`git reset [fileName]`  
 Deshace los cambios en el área de preparación para el archivo especificado, devolviéndolo al estado del último commit.
 
 `git commit -m [commitMessage]`  
@@ -42,7 +42,7 @@ Confirma los cambios del área de preparación con un mensaje de confirmación.
 
 ### CAMBIOS GRUPALES
 
-`git branch`
+`git branch`  
 Enumera todas las ramas del repositorio actual.
 
 `git branch [nombreRama]`  
