@@ -21,32 +21,68 @@
 | `git diff`  | Muestra las diferencias entre los cambios del directorio de trabajo y el área de preparación.  |
 | `git diff --staged` | Muestra las diferencias entre los archivos en el área de preparación y la última versión del archivo. |
 | `git add [fileName]`  | Añade un archivo específico al área de preparación. |
-| `git add .`   | Añade todos los cambios en el directorio de trabajo al área de preparación.  
-:warning: Úsalo con precaución ya que puede incluir archivos no deseados. |
+| `git add .`   | Añade todos los cambios en el directorio de trabajo al área de preparación. :warning: Úsalo con precaución ya que puede incluir archivos no deseados. |
 | `git reset [fileName]`   | Deshace los cambios en el área de preparación para el archivo especificado, devolviéndolo al estado del último commit. |
 | `git commit -m [commitMessage]`  | Confirma los cambios del área de preparación con un mensaje de confirmación. |
-
 
 ---
 
 ### CAMBIOS GRUPALES
 
-`git branch`  
-Enumera todas las ramas del repositorio actual.
-
-`git branch [nombreRama]`  
-Crea una nueva rama con el nombre especificado.
-
-`git checkout [nombreRama]`  
-Cambia a la rama especificada y actualiza el directorio activo.
-
-`git merge [nombreRama]`  
-Fusiona la rama especificada con la rama actual.
-
-`git branch -d [nombreRama]`  
-Borra la rama especificada.
-
+| Comando | Descripción |
+| --- | --- |
+| `git branch`  | Enumera todas las ramas del repositorio actual. |
+| `git branch [nombreRama]`  | Crea una nueva rama con el nombre especificado. |
+| `git checkout [nombreRama]`  | Cambia a la rama especificada y actualiza el directorio activo. |
+| `git merge [nombreRama]`  | Fusiona la rama especificada con la rama actual. |
+| `git branch -d [nombreRama]`  | Borra la rama especificada. |
 
 ---
 
 ### MOVER Y REUBICAR ARCHIVOS
+
+| Comando | Descripción |
+| --- | --- |
+| `git rm [nombreArchivo]` | Borra el archivo especificado del directorio activo y pone en el área de espera el archivo borrado. |
+| `git rm --cached [nombreArchivo]` | Retira el archivo especificado del control de versiones, pero lo preserva a nivel local. |
+| `git mv [nombreArchivo] [nuevoNombreArchivo]` | Cambia el nombre del archivo y lo prepara para commit. |
+
+### GUARDAR FRAGMENTOS
+
+| Comando | Descripción |
+| --- | --- |
+| `git stash` | Almacena temporalmente los cambios no confirmados en una pila stash limpiando el área de trabajo sin necesidad de hacer un commit. |
+| `git stash pop` | Restaura los archivos guardados del último stash. |
+| `git stash list` | Enumera todos los stashes guardados con un identificador único. |
+| `git stash drop [stash@{n}]` | Elimina stash de cambios especificado en el índice n. |
+
+### HISTORIAL COMMITS
+
+| Comando | Descripción |
+| --- | --- |
+| `git log` | Enumera el historial de commits de la rama actual. |
+| `git log --oneline` | Muestra el historial en una sola línea por commit, mostrando solo el hash corto y el mensaje del commit. |
+| `git log -n x` | Muestra solo los últimos x commits. |
+| `git log --grep = [palabraCommit]` | Muestra solo los commits que contienen la palabra "palabraCommit" en el mensaje del commit. |
+| `git log --author = [nombreAutor]` | Muestra solo los commits hechos por un autor específico. |
+| `git log --follow [nombreArchivo]` | Muestra el historial de commits de un archivo específico incluyendo los cambios de nombre de este. |
+| `git diff [primeraRama]...[segundaRama]` | Muestra las diferencias de contenido entre dos ramas. |
+| `git show [commit]` | Muestra la información detallada sobre un commit específico pasándole como parámetro el hash o identificador del commit. |
+
+## REHACER COMMITS
+
+| Comando | Descripción |
+| --- | --- |
+| `git reset [commit]` | Deshace todos los commits después del commit especificado, preservando los cambios localmente. |
+| `git reset --hard [commit]` | Reestablece completamente todo el repo al estado exacto del commit especificado, eliminando cualquier cambio posterior. |
+| `git log -n x` | Muestra solo los últimos x commits. |
+
+## SINCRONIZAR CAMBIOS
+
+| Comando | Descripción |
+| --- | --- |
+| `git fetch [nombreRepo]` | Descarga los cambios del repo remoto especificado, sin integrarlos en la rama actual, permitiendo inspeccionar los cambios entes de unirlos al área de trabajo. |
+| `git merge [nombreRama]` | Combina los cambios de la rama actual con la rama especificada. |
+| `git push [nombreRepoRemoto] [nombreRamaRemota]` | Envía los commits locales a un repositorio remoto. |
+| `git pull` | Actualiza el repo local con los cambios del repo remoto. Combina los comandos git fetch(descarga cambios del repo remoto) y git merge(combina los cambios a la rama actual) |
+
