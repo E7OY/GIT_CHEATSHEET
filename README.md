@@ -1,5 +1,3 @@
-# cheatSheets
-
 ## GIT CHEAT-SHEET
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
