@@ -12,7 +12,7 @@
 
 ### **CREAR REPOS**
 
-| **Comando | Descripción** |
+| **Comando** | **Descripción** |
 | --- | --- |
 | `git init [nombreRepo]` | Crea un repositorio local con el nombre especificado, con todos los archivos necesarios para el seguimiento de versiones. |
 | `git clone [urlRepo]` | Crea una copia local de un repositorio remoto de Git con la URL especificada. |
