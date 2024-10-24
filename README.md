@@ -11,7 +11,7 @@
 > | Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
 
 
-### **<span style="color:red">CREAR REPOS</span>**
+### <span style="color:red">CREAR REPOS</span>
 
 | **Comando** | **Descripción** |
 | --- | --- |
