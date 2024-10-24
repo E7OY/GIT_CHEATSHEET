@@ -1,10 +1,10 @@
-![repo size](https://img.shields.io/github/repo-size/E7OY/cheatSheet.svg)
+![repo size](https://img.shields.io/github/repo-size/E7OY/cheatSheet)
 
-## GIT CHEAT-SHEET
+# GIT CHEAT-SHEET
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
-###  ÁREAS DE TRABAJO DE GIT
+##  ÁREAS DE TRABAJO DE GIT
 
 > | **Area** | **Descripción** |
 > | --- | --- |
@@ -13,7 +13,7 @@
 > | Repositorio (Repository) |  Dónde se almacena el historial de todos los commits del proyecto. Cuando se hace un `git commit` se mueven los cambios desde el área de preparación al repositorio. |
 
 
-### **CREAR REPOS**
+## **CREAR REPOS**
 
 | **Comando** | **Descripción** |
 | --- | --- |
@@ -22,7 +22,7 @@
 
 ---
 
-### **CAMBIOS REPOS**
+## **CAMBIOS REPOS**
 
 | **Comando** | **Descripción** |
 | --- | --- |
@@ -36,7 +36,7 @@
 
 ---
 
-### RAMAS
+## RAMAS
 
 | **Comando** | **Descripción** |
 | --- | --- |
@@ -48,7 +48,7 @@
 
 ---
 
-### MOVER Y REUBICAR ARCHIVOS
+## MOVER Y REUBICAR ARCHIVOS
 
 | **Comando** | **Descripción** |
 | --- | --- |
@@ -69,7 +69,7 @@
 
 ---
 
-### HISTORIAL COMMITS
+## HISTORIAL COMMITS
 
 | **Comando** | **Descripción** |
 | --- | --- |
