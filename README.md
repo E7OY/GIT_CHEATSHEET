@@ -1,6 +1,6 @@
 ![repo size](https://img.shields.io/github/repo-size/E7OY/GIT)
 
-# GIT CHEAT-SHEET
+# GIT CHEAT SHEET
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
