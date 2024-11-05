@@ -4,6 +4,8 @@
 
 ![LogoGit.](https://git-scm.com/images/logos/downloads/Git-Logo-2Color.svg)
 
+Este repositorio es una hoja de trucos de Git. Proporciona una guía completa sobre varios comandos de Git y sus descripciones, incluyendo áreas de trabajo en Git, creación de repositorios, seguimiento de cambios, 
+mover y renombrar archivos, guardar cambios, historial de commits, revertir commits y sincronizar cambios. El archivo README contiene comandos detallados y su uso para una mejor comprensión y gestión de los repositorios Git.
 
 ## Índice
 
