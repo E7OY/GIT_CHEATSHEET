@@ -9,7 +9,7 @@ mover y renombrar archivos, guardar cambios, historial de commits, revertir comm
 
 ## Índice
 
-* [Áreas de trabajo de Git](#areas-de-trabajo-de-git)
+* [Áreas de trabajo de Git](#áreas-de-trabajo-de-git)
 * [Crear repos](#crear-repos)
 * [Cambios Repos](#cambios-repos)
 * [Mover y Reubicar Archivos](#mover-y-reubicar-archivos)
@@ -19,7 +19,7 @@ mover y renombrar archivos, guardar cambios, historial de commits, revertir comm
 * [Sincronizar cambios](#sincronizar-cambios)
 
 
-##  ÁREAS DE TRABAJO DE GIT
+## **ÁREAS DE TRABAJO DE GIT**
 
 > | **Area** | **Descripción** |
 > | --- | --- |
